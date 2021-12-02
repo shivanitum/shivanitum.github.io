@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    font-family: 'Trebuchet MS';
+    align-items:center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: navy;
+
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:lightblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+.nav-links a:hover{
+    color: tomato;
+}
+.nav-links a:active{
+    color: lime;
+}
+h4{
+   font-size: 20px;
+}
+.main{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width:100vw;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(500px,500px));
+}
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+
+}
+body{
+    background-color:whitesmoke;
+}

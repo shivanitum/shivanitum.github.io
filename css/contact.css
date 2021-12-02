@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    font-family: 'Trebuchet MS';
+    align-items:center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: navy;
+
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:lightblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+.nav-links a:hover{
+    color: tomato;
+}
+.nav-links a:active{
+    color: lime;
+}
+h4{
+   font-size: 20px;
+}
+
+
+.contact{
+    background-color:lightblue;   
+}
+
+.middle{
+    width: 40%;
+    margin:0 auto;
+}
+.middle h1{
+    text-align: center;
+    
+    font-family: 'Padauk', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+    font-size: 80px;
+
+}
+
+div{
+    padding: 10px;
+    margin: 10px;
+}
+hr{
+    color: black;
+}
+
+form{
+    width:80%;
+    margin: 0 auto;
+}
+input{
+    border:none;
+    background-color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    
+}
+
+input:hover{
+    border: 1px solid black;
+}
+
+textarea:hover{
+    border: 1px solid black;
+}
+
+input[type=text],input[type=email]{
+    width: 50%;
+}
+input[type=tel]{
+    width: 75%;
+}
+
+td{
+    padding:5px;
+}
+
+textarea{
+    border:none;
+    background-color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    
+}
+input[type=submit]:hover
+{
+    background-color:rgba(59, 51, 51, 0.932);
+    color: white;
+}
+body{
+    background-color:lightblue;
+}
+.header{
+    color: navy;
+}

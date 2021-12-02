@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    font-family: 'Trebuchet MS';
+    align-items:center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background-color: navy;
+
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:lightblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+.nav-links a:hover{
+    color: tomato;
+}
+.nav-links a:active{
+    color: lime;
+}
+h4{
+   font-size: 20px;
+}
+.para{margin-top: 150px;
+    color: navy;
+    font-size: 75px;
+    text-align: center;
+    text-shadow: 
+               10px 10px 30px   turquoise;
+    
+}
+.wave {
+    margin-top: 30px;
+    margin-left: 800px;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+    font-size: 100px;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  .about{
+      margin-top: 35px;
+      margin-left: 35px;
+      margin-right: 35px;
+      font-family:Verdana;
+      font-style: italic;
+      text-align:justify;
+      font-size: 35px;
+      color: darkblue;
+  }
+
